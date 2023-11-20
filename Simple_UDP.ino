@@ -2,9 +2,6 @@
 #include <WiFiUdp.h>
 #include <WebServer.h>
 
-
-/* WiFi network name and password */
-
 const char * ssid = "Your own router's SSID";
 const char * pwd = "Your own router's Password";
 
@@ -78,7 +75,7 @@ void loop()
       datacount++;
     }
    
-   // You can the amount of time to whatever you want
+   // You can change the amount of time to whatever you want
    // You can even change the delay to delayMicroseconds if you want to
 
    delay(10);
