@@ -48,7 +48,8 @@ void setup()
 
 void loop() 
 { 
-    // Testing the UDP data transfer by sending the number 1 to 1000
+   // For testing, the UDP data transferred is the number 1 to 1000.
+   // However, ii can be replaced by analogRead or any form of data reading that suit your project.
 
     if (nthdata == 1000) 
     {
